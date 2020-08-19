@@ -11,7 +11,6 @@ import { Geolocation } from '@ionic-native/geolocation/ngx';
 export class PickupLocationPage implements OnInit {
   map: Leaflet.Map;
   newMarker: any;
-  address: string[];
 
   height : string;
 
