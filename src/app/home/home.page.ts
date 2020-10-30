@@ -16,4 +16,8 @@ export class HomePage {
     this.router.navigate(['pickup-location']);
   }
 
+  gmapClick(){
+    this.router.navigate(['gmap']);
+  }
+
 }

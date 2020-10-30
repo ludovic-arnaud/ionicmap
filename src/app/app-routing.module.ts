@@ -14,7 +14,11 @@ const routes: Routes = [
   {
     path: 'pickup-location',
     loadChildren: () => import('./pickup-location/pickup-location.module').then( m => m.PickupLocationPageModule)
+  },  {
+    path: 'gmap',
+    loadChildren: () => import('./gmap/gmap.module').then( m => m.GmapPageModule)
   },
+
 ];
 
 @NgModule({
